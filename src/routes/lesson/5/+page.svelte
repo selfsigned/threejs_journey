@@ -34,8 +34,6 @@
       camera.position.x = Math.cos(2 * elapsedTime);
       camera.lookAt(mesh.position);
 
-      // using
-
       renderer.render(scene, camera);
       window.requestAnimationFrame(tick);
     };
